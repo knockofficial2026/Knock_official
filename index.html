@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KNOCK | Quiet Confidence</title>
+  <meta name="description" content="KNOCK — premium streetwear designed for those who let quality speak louder than words.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">KNOCK<span>.</span></a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="theme-toggle" aria-label="Toggle dark mode">☾</button>
+      <a href="#cart" class="cart-link">Bag (<span id="cart-count">0</span>)</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">LESS NOISE. MORE PRESENCE.</p>
+      <h1>QUIET<br><span>CONFIDENCE.</span></h1>
+      <p class="hero-text">
+        Designed for those who let quality speak louder than words.
+      </p>
+      <a href="#shop" class="shop-button">EXPLORE COLLECTION ↗</a>
+      <div class="hero-note">KNOCK — EST. FOR THE DISTINCT.</div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE KNOCK EDIT</p>
+          <h2>Wear your presence.</h2>
+        </div>
+        <p>Everyday essentials. Elevated.</p>
+      </div>
+
+      <div class="product-grid">
+
+  <article class="product-card">
+    <div class="product-image jacket-image">
+      <span class="product-tag">SIGNATURE PIECE</span>
+      <img
+        class="product-photo"
+        src="images/jacket.jpg"
+        alt="KNOCK Oversized Jacket"
+      >
+    </div>
+
+    <div class="product-info">
+      <div>
+        <h3>Oversized Jacket</h3>
+        <p>Structured streetwear</p>
+      </div>
+      <strong>₦65,000</strong>
+    </div>
+
+    <div class="product-options">
+      <label>
+        Size
+        <select class="product-size">
+          <option value="S">S</option>
+          <option value="M" selected>M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </label>
+
+      <label>
+        Colour
+        <select class="product-colour">
+          <option value="Black">Black</option>
+          <option value="Cream">Cream</option>
+          <option value="Brown">Brown</option>
+        </select>
+      </label>
+    </div>
+
+    <button class="add-to-cart"
+      data-name="Oversized Jacket"
+      data-price="65000">
+      ADD TO BAG +
+    </button>
+  </article>
+
+        <article class="product-card">
+          <div class="product-image hoodie-image">
+            <span class="product-tag">EVERYDAY ESSENTIAL</span>
+            <img
+  class="product-photo"
+  src="images/hoodie.jpg"
+  alt="KNOCK Classic Hoodie"
+>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>Classic Hoodie</h3>
+              <p>Relaxed fit</p>
+            </div>
+            <strong>₦45,000</strong>
+          </div>
+          <div class="product-options">
+  <label>
+    Size
+    <select class="product-size">
+      <option value="S">S</option>
+      <option value="M" selected>M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+    </select>
+  </label>
+
+  <label>
+    Colour
+    <select class="product-colour">
+      <option value="Black">Black</option>
+      <option value="Cream">Cream</option>
+      <option value="Brown">Brown</option>
+    </select>
+  </label>
+</div>
+          <button class="add-to-cart" data-name="Classic Hoodie" data-price="45000">
+            ADD TO BAG +
+          </button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image tshirt-image">
+            <span class="product-tag">DAILY UNIFORM</span>
+            <img
+  class="product-photo"
+  src="images/tshirt.jpg"
+  alt="KNOCK Essential T-Shirt"
+>
+          </div>
+          <div class="product-info">
+            <div>
+              <h3>Essential T-Shirt</h3>
+              <p>Clean, understated design</p>
+            </div>
+            <strong>₦25,000</strong>
+          </div>
+          <div class="product-options">
+  <label>
+    Size
+    <select class="product-size">
+      <option value="S">S</option>
+      <option value="M" selected>M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+    </select>
+  </label>
+
+  <label>
+    Colour
+    <select class="product-colour">
+      <option value="Black">Black</option>
+      <option value="Cream">Cream</option>
+      <option value="Brown">Brown</option>
+    </select>
+  </label>
+</div>
+          <button class="add-to-cart" data-name="Essential T-Shirt" data-price="25000">
+            ADD TO BAG +
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <p class="eyebrow">THE PHILOSOPHY</p>
+      <h2>Not made to shout.<br>Made to <span>stand out.</span></h2>
+      <p>
+        KNOCK is for people who understand that true confidence
+        doesn't need an announcement. Thoughtful style. Strong presence.
+        Quality that speaks for itself.
+      </p>
+    </section>
+
+    <section class="cart-section" id="cart">
+      <p class="eyebrow">YOUR SELECTION</p>
+      <h2>Your bag.</h2>
+      <div id="cart-items">
+        <p class="empty-cart">Your bag is currently empty.</p>
+      </div>
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cart-total">₦0</strong>
+      </div>
+      
+<button id="checkout-button">CONTINUE TO CHECKOUT ↗</button>
+
+<button id="continue-shopping" type="button">
+  ← CONTINUE SHOPPING
+</button>
+
+      <p class="checkout-note">Checkout will need to be connected to a real payment method before launch.</p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <a href="#home" class="logo">KNOCK<span>.</span></a>
+    <p>Quiet Confidence.</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok ↗</a>
+      <a href="https://x.com/" target="_blank" rel="noopener">X ↗</a>
+    </div>
+    <p class="copyright">© 2026 KNOCK. ALL RIGHTS RESERVED.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
